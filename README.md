@@ -1,3 +1,12 @@
+# Prerequisites
+All scripts rely on several Python libraries. Below is a list of the libraries required for each script. You can install the dependencies via pip:
+```bash
+pip install pandas scikit-learn pymongo certifi requests beautifulsoup4 nltk joblib Pillow pytesseract tensorflow
+```
+Additionally, ensure you have **Tesseract-OCR** installed for the OCR functionalities, and **Docker** is configured properly to run the containerized services.
+
+
+
 **Overview:** Developed a script to automatically extract temporal data (dates, timestamps) from images, integrating OCR, image processing, and pattern recognition techniques.
 
 **Steps and Tools:**
